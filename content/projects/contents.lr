@@ -1,0 +1,60 @@
+title: Projects
+---
+body: Here’s a selected list of notable projects we are currently working on. More projects can be found on the [Sarugaku team page on GitHub](https://github.com/sarugaku).
+---
+blocks:
+
+#### project ####
+name: Plette
+----
+description: An implementation to the Pipfile specification. It offers parsers and style-preserving emitters to both the Pipfile and Pipfile.lock formats, with optional validators to both files. The parser generates structured models for the file formats.
+----
+home_url: https://github.com/sarugaku/plette
+----
+docs_url: https://plette.readthedocs.io
+
+#### project ####
+name: ResolveLib
+----
+description: This library, at its highest level, provides a resolver implementation that includes dependency resolution logic. Give it some things, and some information on how those things should interact with, and it will spit out a resolution result.
+----
+home_url: https://github.com/sarugaku/resolvelib
+
+#### project ####
+name: RequirementsLib
+----
+description: An abstraction over a requirement representation in Pipfile, Pipfile.lock, or requirements.txt. This library provides conversion between these formats, and allows the user to perform common operations on those representations.
+----
+home_url: https://github.com/sarugaku/requirementslib
+----
+docs_url: https://requirementslib.readthedocs.io
+
+#### project ####
+name: Passa
+----
+description: A command line interface to interact with Pipfile and Pipfile.lock. This library contains a resolver implementation of ResolveLib to generate Pipenv-compatible Pipfile.lock, encapsulated common operations with those files, and a command line interface to perform them.
+----
+home_url: https://github.com/sarugaku/passa
+
+#### project ####
+name: PythonFinder
+----
+description: A cross-platform search tool for finding Python installations. This library finds Python installations in various standard or common locations, such as the PATH environment variable, pyenv setup, and Windows registry.
+----
+home_url: https://github.com/sarugaku/pythonfinder
+----
+docs_url: https://pythonfinder.readthedocs.io
+
+#### project ####
+name: Shellingham
+----
+description: A tool to detect the type of shell the current Python script is run in, e.g. Bash, zsh, Powershell, cmd.exe.
+----
+home_url: https://github.com/sarugaku/shellingham
+
+#### project ####
+name: VirtEnv
+----
+description: A script to abstract virtual environment creation. It reads the surrounding environment and arguments passed to it to decide whether it is better to use virtualenv or the built-in venv to create a new virtual environment.
+----
+home_url: https://github.com/sarugaku/virtenv

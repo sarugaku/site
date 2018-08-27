@@ -1,0 +1,5 @@
+[project]
+name = Sarugaku
+
+[packages]
+lektor-npm-support = 0.1.4

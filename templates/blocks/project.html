@@ -1,0 +1,12 @@
+<div class="block block-project">
+	<div class="project-name">
+		{{ this.name }}
+		<ul class="project-links">
+			<li><a href="{{ this.home_url }}" target="_blank" rel="noopener"><span class="fa fa-github"></span></a></li>
+			{% if this.docs_url %}
+			<li><a href="{{ this.docs_url }}" target="_blank" rel="noopener"><span class="fa fa-book"></span></a></li>
+			{% endif %}
+		</ul>
+	</div>
+	<div class="project-description">{{ this.description }}</div>
+</div>

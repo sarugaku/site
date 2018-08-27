@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="{{ '/static/gen/main.css'|asseturl }}">
+
+<script src="{{ '/static/gen/main.js'|asseturl }}"></script>
+
+<title>{% block title %}{% endblock %} — Sarugaku</title>
+
+</head>
+
+
+<body>
+
+<header>
+	<nav>
+		<ul class="nav-items">
+			{% for href, text in [
+				['/'|url, 'Home'],
+				['/projects'|url, 'Projects'],
+			] %}
+
+			<li{% if this|url == href %} class="active"{% endif %}>
+				{% if this|url == href %}
+				<span>{{ text }}</span>
+				{% else %}
+				<a href="{{ href }}">{{ text }}</a>
+				{% endif %}
+			</li>
+			{% endfor %}
+		</ul>
+	</nav>
+</header>
+
+<div class="page">{% block body %}{% endblock %}</div>
+
+<footer>
+	<p>&copy; Copyright 2018 Sarugaku. <a href="http://www.urltarget.com/monkey-music-flat-icon-band-monkeys.html" target="_blank" rel="noopener">Image attribution</a>.</p>
+</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,130 @@
+$white: rgba(255, 255, 255, 1);
+$light: rgba(0, 167, 225, 1);
+$pitch: rgba(0, 23, 31, 1);
+$dark: rgba(0, 52, 89, 1);
+$normal: rgba(0, 126, 167, 1);
+
+body {
+  display: grid;
+  grid-template-rows: 256px auto 56px;
+  grid-row-gap: 48px;
+  margin: 0;
+  color: $pitch;
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 300;
+}
+
+h1, h2, h3 {
+	margin-top: 3rem;
+	text-align: center;
+	font-weight: 400;
+}
+
+a {
+	color: $pitch;
+	&:hover {
+		color: $normal;
+	}
+}
+
+.container {
+	max-width: 600px;
+	margin: auto;
+	padding: 0 16px;
+
+	> *:first-child {
+		margin-top: 0;
+	}
+	> *:last-child {
+		margin-bottom: 0;
+	}
+}
+
+header {
+	display: flex;
+	align-content: flex-end;
+	justify-content: center;
+  background: url('./monkey-music.png') center/contain no-repeat;
+
+  nav {
+  	flex: 1;
+  	display: flex;
+		align-content: flex-end;
+		align-items: flex-end;
+		justify-content: center;
+  }
+
+  .nav-items {
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	margin-bottom: 8px;
+  	padding: 0;
+  	list-style: none;
+
+  	> li {
+  		flex: 1 0 120px;
+  		text-align: center;
+  		font-size: 110%;
+  	}
+  }
+}
+
+main {
+	p, ol, ul {
+		margin-bottom: 1.5rem;
+		line-height: 1.6667;
+		text-align: justify;
+
+		strong {
+			font-weight: 400;
+		}
+	}
+
+	li {
+		margin: 0.3333rem 0;
+	}
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-top: $dark 1px solid;
+	font-size: 90%;
+}
+
+.page {
+	margin-bottom: 32px;
+}
+
+.blocks {
+	margin: 24px 0;
+}
+
+.block-project {
+	margin: 24px 0;
+}
+.project-name {
+	margin: 0;
+	font-size: 115%;
+	font-weight: 400;
+}
+.project-description {
+	margin: 0 16px;
+	line-height: 1.5;
+	text-align: justify;
+	font-size: 95%;
+}
+.project-links {
+	display: inline-flex;
+	margin: 8px 16px;
+	padding: 0;
+	list-style: none;
+
+	> li {
+		margin-right: 0.75rem;
+	}
+}
