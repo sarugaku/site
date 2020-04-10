@@ -4,12 +4,12 @@ body:
 
 **Sarugaku** is an affiliate to support the community around the [Pipfile](https://github.com/pypa/pipfile) specification, and its de-facto tooling, [Pipenv](https://docs.pipenv.org).
 
-The team is funded by Pipenv maintainers [Dan Ryan](https://github.com/techalchemy) and [Tzu-ping Chung](https://github.com/uranusjr) to collaborate on projects supporting various portions of Pipenv’s functionality, and experiement on shiny new things without constantly breaking the user experience of Pipenv.
+The team is funded by Pipenv maintainers [Dan Ryan](https://github.com/techalchemy) and [Tzu-ping Chung](https://github.com/uranusjr) to collaborate on projects supporting various portions of Pipenv’s functionality, and experiment on shiny new things without constantly breaking the user experience of Pipenv.
 
-Sarugaku has no association with the Python Software Foundation (PSF), the Python Packaging Authority (PyPA), or any official bodies, governing or otherwise, around the Python ecosystem. The team contributes heavily to various projects maintained by those groups, but does not have authoritative toward their decisions, and/or development of spcifications and standards.
+Sarugaku has no association with the Python Software Foundation (PSF), the Python Packaging Authority (PyPA), or any official bodies, governing or otherwise, around the Python ecosystem. The team contributes heavily to various projects maintained by those groups, but does not have authority regarding their decisions, and/or development of specifications and standards.
 
 
-### Areas of Interst
+### Areas of Interest
 
 * Python packaging
 * Dependency resolution
